@@ -1,5 +1,5 @@
 // Import the image so webpack can process it
-function pageload() {
+function header() {
     //declare div#id as constant
     const content = document.getElementById("content");
 
@@ -15,4 +15,4 @@ function pageload() {
     tagline.textContent = "Almost Better than Mammas";
     hero.append(heading, tagline);
 }
-export { pageload }
+export { header }

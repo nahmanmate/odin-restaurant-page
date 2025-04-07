@@ -1,5 +1,7 @@
 import "./styles.css";
-import { pageload } from "./page-load";
+import { header } from "./header";
+import { home } from "./home";
 
-//Load Home Page DOM
-pageload();
+//Load Header
+header();
+home();
