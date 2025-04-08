@@ -38,7 +38,7 @@ function home () {
 
     const subheadingLocation = document.createElement("h3");
     subheadingLocation.textContent = "Location"
-    const address = document.createElement("span");
+    const address = document.createElement("p");
     address.textContent = "123 Fake Street, Springfield, Springfield"
     div1.append(subheadingHours, hoursEntry);
     div2.append(subheadingLocation, address);
