@@ -14,6 +14,12 @@ body {
     grid-template-rows: auto 1fr auto;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--toolbar-backround)
+}
+
 .hero {
     color:rgb(209, 54, 201);
     -webkit-text-stroke: 2px rgb(0, 0, 48);
@@ -42,14 +48,17 @@ li, p {
     display: flex;
     justify-content: end;
     gap: 4rem;
-    background-color: var(--toolbar-backround);
     padding: var(--toolbar-padding);
 }
 
-#navMenu buttons {
+#navMenu ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+    margin-right: 2%;
+}
+
+.navButton {
 }
 
 .hero {
