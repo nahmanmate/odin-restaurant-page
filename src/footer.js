@@ -1,4 +1,4 @@
-import githubIcon from './githubLogo.png'
+import githubIcon from './images/githubLogo.png'
 
 function setFooter() {
     //initialise footer
